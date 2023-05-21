@@ -1,0 +1,16 @@
+header{
+    display: flex;
+}
+.cont{
+    background-color: rgb(233, 0, 0);
+    height: 200px;
+    width: 200px;
+    transition: 1s;  
+}  
+
+.cont:hover{
+    background-color: blue;
+    padding-right: 200px;
+    height: 400px;
+    cursor: pointer;
+}
